@@ -1,7 +1,8 @@
 """ this program was designed to collect tickers from CUSIPS using a fidelity
 search engine. It will not be able to collect tickers from all 13F entries given
 that CUSIPS and public stocks change a lot. It works best on recent 13F filings
-but is also useful to get started on for older filings."""
+but is also useful to get started on for older filings. First check Whale Wisdom to
+see if the 13F is available on there, with tickers. Lot easier that way."""
 
 import os
 from bs4 import BeautifulSoup
