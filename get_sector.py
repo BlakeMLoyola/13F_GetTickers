@@ -1,3 +1,8 @@
+"""This package is designed to be ran afer the get_tickers package. It will 
+create a dataframe from the ouput.csv and use the yfinance package to obtain sectors for
+every stock with a ticker in the holdings. Finally, it will add these outputs as a column,
+which it will save as a new csv. """
+
 import yfinance as yf
 import pandas as pd
 
